@@ -49,6 +49,9 @@ section{
 .D-Block{
     display: block!important;
 }
+.contenido-centrado{
+    max-width: 800px;
+}
 /*UTILIDEADES*/
 
 /*header*/
@@ -90,6 +93,10 @@ background-color: #e08709;
 /*BOTONES*/
 
 /*Header de inicio*/
+.Header-Site{
+    background-color: #333333;
+    padding: 1rem 0 3rem 0 ;
+}
 .Header-Site.Inicio{
     background-image: url(../img/header.jpg);
     background-position: center center;
@@ -160,6 +167,8 @@ background-color: #e08709;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
+    max-width: 500px;
+    flex: 1;
 }
 .IconosCaracteristicas li{
     display: flex;
@@ -286,3 +295,24 @@ background-color: #e08709;
     color: white;
 }
 /*FOODER*/
+
+/*Paginas internas*/
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+
+}
+.contenido-nosotros p {
+    font-size: 1.4rem;
+}
+.ContenedorAnuncios.Anuncios{
+    padding-bottom: 7rem;
+}
+.resumen-propiedad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Paginas internas*/
