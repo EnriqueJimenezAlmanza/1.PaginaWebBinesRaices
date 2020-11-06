@@ -81,6 +81,7 @@ section{
     margin: 1.8rem;
     display: inline-block;
     text-align: center;
+    cursor: pointer;
 
 }
 .BotonAmarillo{
@@ -320,8 +321,30 @@ background-color: #e08709;
 /*Contacto*/
 label {
     display: block;
+    font-size: 12px;
 }
-input:not([type="submit"]) {
+form p{
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+select {
+    appearance: none;
+
+}
+
+textarea{
+    height: 20rem;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+}
+input:not([type="submit"]), 
+textarea,
+select {
     padding: 1rem;
     display: block;
     width: 100%;
@@ -330,3 +353,20 @@ input:not([type="submit"]) {
     border: none;
     border-radius: 1rem;
 }
+input[type="radio"]{
+    width: auto;
+    margin: 0%;
+}
+
+.forma-contacto{
+    max-width: 400px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+input[type="submit"]{
+    border: none;
+}
+
+/*Contacto*/
