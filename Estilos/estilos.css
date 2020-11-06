@@ -316,3 +316,17 @@ background-color: #e08709;
 }
 
 /*Paginas internas*/
+
+/*Contacto*/
+label {
+    display: block;
+}
+input:not([type="submit"]) {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #b5b5b5;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
